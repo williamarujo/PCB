@@ -6734,7 +6734,7 @@ W = angled&lt;p&gt;
 <wire x1="45.72" y1="71.12" x2="45.72" y2="50.8" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="45.72" y1="50.8" x2="5.08" y2="50.8" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="5.08" y1="50.8" x2="5.08" y2="71.12" width="0.1524" layer="94" style="dashdot"/>
-<text x="5.588" y="68.58" size="1.778" layer="94" font="vector" ratio="11">5V DC JACK</text>
+<text x="5.588" y="68.58" size="1.778" layer="94" font="vector" ratio="11">5V DC JACK @ 1A</text>
 <wire x1="5.08" y1="48.26" x2="45.72" y2="48.26" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="45.72" y1="48.26" x2="45.72" y2="15.24" width="0.1524" layer="94" style="dashdot"/>
 <wire x1="45.72" y1="15.24" x2="5.08" y2="15.24" width="0.1524" layer="94" style="dashdot"/>
@@ -6748,6 +6748,9 @@ W = angled&lt;p&gt;
 <text x="147.32" y="157.48" size="1.778" layer="94" font="vector">Pontos de GND</text>
 <text x="147.32" y="154.94" size="1.778" layer="94" font="vector">Pontos de VCC</text>
 <text x="147.32" y="152.4" size="1.778" layer="94" font="vector">Pontos GND HI-POWER</text>
+<text x="147.32" y="149.86" size="1.778" layer="94" font="vector">Pontos VCC HI-POWER</text>
+<text x="147.32" y="147.32" size="1.778" layer="94" font="vector">Filtro PI</text>
+<text x="147.32" y="144.78" size="1.778" layer="94" font="vector">On/Off Switch</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -6839,6 +6842,11 @@ W = angled&lt;p&gt;
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="30.48" y1="25.4" x2="33.02" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="25.4" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="10"/>
+<wire x1="71.12" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
+<label x="73.66" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -7241,13 +7249,6 @@ W = angled&lt;p&gt;
 <wire x1="25.4" y1="144.78" x2="30.48" y2="144.78" width="0.1524" layer="91"/>
 <junction x="30.48" y="144.78"/>
 <label x="35.56" y="144.78" size="1.27" layer="95" font="vector" ratio="11" xref="yes"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="SV2" gate="G$1" pin="10"/>
-<wire x1="71.12" y1="139.7" x2="73.66" y2="139.7" width="0.1524" layer="91"/>
-<label x="73.66" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 </net>
 <net name="RC7" class="0">

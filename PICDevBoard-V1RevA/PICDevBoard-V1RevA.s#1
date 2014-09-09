@@ -6751,6 +6751,7 @@ W = angled&lt;p&gt;
 <text x="147.32" y="149.86" size="1.778" layer="94" font="vector">Pontos VCC HI-POWER</text>
 <text x="147.32" y="147.32" size="1.778" layer="94" font="vector">Filtro PI</text>
 <text x="147.32" y="144.78" size="1.778" layer="94" font="vector">On/Off Switch</text>
+<text x="147.32" y="142.24" size="1.778" layer="94" font="vector">Reset</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>

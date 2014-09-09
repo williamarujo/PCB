@@ -6182,7 +6182,7 @@ Source: AVX .. aphvc.pdf</description>
 <text x="20.32" y="160.02" size="1.778" layer="91">- ICSP</text>
 <text x="20.32" y="154.94" size="1.778" layer="91">- Alimentação externa</text>
 <text x="20.32" y="149.86" size="1.778" layer="91">- Cristal externo</text>
-<text x="20.32" y="144.78" size="1.778" layer="91">- Pinos Vref+ e Vref-</text>
+<text x="20.32" y="144.78" size="1.778" layer="91">- Chave seletora de Alimentação</text>
 <text x="20.32" y="139.7" size="1.778" layer="91">- Saída serial</text>
 <text x="20.32" y="134.62" size="1.778" layer="91">- USB</text>
 <text x="68.58" y="160.02" size="1.778" layer="91" font="vector">ok</text>
@@ -6192,6 +6192,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="203.2" y1="170.18" x2="157.48" y2="170.18" width="0.1524" layer="94" style="dashdot"/>
 <text x="177.8" y="160.02" size="1.27" layer="94" font="vector">Bypass do PIC</text>
 <text x="177.8" y="157.48" size="1.27" layer="94" font="vector">Montar próximo do uC</text>
+<text x="68.58" y="149.86" size="1.778" layer="91" font="vector">ok</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
