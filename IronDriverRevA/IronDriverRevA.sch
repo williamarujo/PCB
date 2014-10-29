@@ -17256,8 +17256,8 @@ grid 5.08 mm</description>
 <wire x1="78.74" y1="134.62" x2="165.1" y2="134.62" width="0.1524" layer="94" style="longdash"/>
 <wire x1="165.1" y1="134.62" x2="165.1" y2="172.72" width="0.1524" layer="94" style="longdash"/>
 <text x="83.82" y="167.64" size="1.778" layer="94">Acionamento do Heater</text>
-<text x="17.78" y="53.34" size="1.778" layer="94">D1, D2, D3, D4</text>
-<text x="17.78" y="50.8" size="1.778" layer="94">1N4148</text>
+<text x="20.32" y="53.34" size="1.778" layer="94">D1, D2, D3, D4</text>
+<text x="20.32" y="50.8" size="1.778" layer="94">1N4148</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
