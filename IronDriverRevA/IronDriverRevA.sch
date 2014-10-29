@@ -9044,6 +9044,7 @@ grid 5.08 mm</description>
 <part name="IC6" library="RS207" deviceset="RS207" device=""/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C0805"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
+<part name="JUMPER1" library="rcl" deviceset="R-EU_" device="M1206"/>
 </parts>
 <sheets>
 <sheet>
@@ -9340,6 +9341,7 @@ grid 5.08 mm</description>
 <instance part="P+8" gate="VCC" x="43.18" y="73.66"/>
 <instance part="C2" gate="G$1" x="63.5" y="111.76" rot="R90"/>
 <instance part="GND16" gate="1" x="73.66" y="111.76" rot="R90"/>
+<instance part="JUMPER1" gate="G$1" x="38.1" y="25.4"/>
 </instances>
 <busses>
 </busses>
