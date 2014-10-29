@@ -17208,9 +17208,6 @@ grid 5.08 mm</description>
 <part name="R14" library="rcl" deviceset="R-EU_" device="0207/7" value="2.4k"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="0207/7" value="13k"/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<<<<<<< HEAD
-<part name="JUMPER1" library="rcl" deviceset="R-EU_" device="M1206"/>
-=======
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="D5" library="diode" deviceset="1N581*" device="" technology="9-T"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
@@ -17230,7 +17227,6 @@ grid 5.08 mm</description>
 <part name="C7" library="rcl" deviceset="C-EU" device="025-025X050" value=".33uF @ 8V"/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
->>>>>>> origin/master
 </parts>
 <sheets>
 <sheet>
@@ -17740,12 +17736,6 @@ grid 5.08 mm</description>
 <instance part="GND13" gate="1" x="33.02" y="88.9"/>
 <instance part="GND14" gate="1" x="43.18" y="48.26"/>
 <instance part="P+8" gate="VCC" x="43.18" y="73.66"/>
-<<<<<<< HEAD
-<instance part="C2" gate="G$1" x="63.5" y="111.76" rot="R90"/>
-<instance part="GND16" gate="1" x="73.66" y="111.76" rot="R90"/>
-<instance part="JUMPER1" gate="G$1" x="38.1" y="25.4"/>
-=======
->>>>>>> origin/master
 </instances>
 <busses>
 </busses>
