@@ -17203,7 +17203,7 @@ grid 5.08 mm</description>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="P+8" library="supply1" deviceset="VCC" device="" value="+8V"/>
 <part name="IC5" library="mc34063" deviceset="MC34063" device="AP"/>
-<part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="100uF @ 35V"/>
+<part name="C2" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="100uF @ 35V"/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="R14" library="rcl" deviceset="R-EU_" device="0207/7" value="2.4k"/>
 <part name="R15" library="rcl" deviceset="R-EU_" device="0207/7" value="13k"/>
@@ -17213,11 +17213,11 @@ grid 5.08 mm</description>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="C-EU" device="025-025X050" value="200pF"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="25uF"/>
+<part name="C4" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="25uF"/>
 <part name="L1" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="210uH"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="L2" library="rcl" deviceset="L-US" device="0204/7" value="1uH"/>
-<part name="C5" library="rcl" deviceset="CPOL-EU" device="E2-5" value="100uF"/>
+<part name="C5" library="rcl" deviceset="CPOL-EU" device="E3.5-8" value="100uF"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device="" value="+8V"/>
 <part name="R16" library="rcl" deviceset="R-EU_" device="0207/7" value="1.5R"/>
