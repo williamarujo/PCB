@@ -17216,7 +17216,7 @@ grid 5.08 mm</description>
 <part name="C4" library="rcl" deviceset="CPOL-EU" device="E2.5-7" value="25uF"/>
 <part name="L1" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="210uH"/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="L2" library="rcl" deviceset="L-US" device="6000-XXX-RC" value="1uH"/>
+<part name="L2" library="rcl" deviceset="L-US" device="0204/7" value="1uH"/>
 <part name="C5" library="rcl" deviceset="CPOL-EU" device="E2-5" value="100uF"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device="" value="+8V"/>
